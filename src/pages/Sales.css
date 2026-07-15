@@ -1,0 +1,63 @@
+.sales-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sales-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.receipt-card {
+  margin-bottom: 16px;
+  padding: 20px;
+}
+
+.receipt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.receipt-time {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.receipt-method {
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  background-color: rgba(99, 102, 241, 0.1);
+  color: var(--brand-primary);
+  font-size: 0.9rem;
+}
+
+.receipt-items {
+  margin-bottom: 16px;
+}
+
+.receipt-item-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.receipt-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--border-color);
+  padding-top: 16px;
+}
+
+.receipt-total {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
